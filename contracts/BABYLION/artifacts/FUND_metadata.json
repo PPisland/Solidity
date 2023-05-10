@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getFund",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "startDay",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "endDay",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "FundingID",
+								"type": "string"
+							}
+						],
+						"internalType": "struct FUND.funding",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_startDay",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_endDay",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_FundingID",
+						"type": "string"
+					}
+				],
+				"name": "setFund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BABYLION/아기사자.sol": "FUND"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BABYLION/아기사자.sol": {
+			"keccak256": "0x9be8c8167c4e6ce160bb11467790abd8405a6efa87055ccd3a6c3ab0bbf1c3aa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6906c80e56bdd0f5deb53d66085c548c55f138b5fe87fe053dd384cf1566134a",
+				"dweb:/ipfs/QmZnZfxAPyZg86zTsyfo6BfoCPoCB2kS2bhAAYdKLCn1qm"
+			]
+		}
+	},
+	"version": 1
+}

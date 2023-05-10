@@ -1,0 +1,48 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "Storage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x061fb68bd1d3b69140c7a52f4462918bc94b6fb3efb166ed46042d0c6dddb7ae",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e472fab26ba4a7d1f13efb9e2ed779223463577556c0ff02bee3615cebd2dae0",
+				"dweb:/ipfs/QmZKCW3FX73yuFt3XNLTJggimxD3J6F2dN44pHHfpq4FGk"
+			]
+		}
+	},
+	"version": 1
+}

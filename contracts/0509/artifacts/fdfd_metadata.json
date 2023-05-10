@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "pushA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0509/note.sol": "fdfd"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0509/note.sol": {
+			"keccak256": "0xd94051afb8ce36e57ce5f2fbdf35ae51a942b93d2c1caef93ca53c6988bfc452",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://13c6a743dc100bc1dcfde8e9d41563f0f5d756ddfe6e8734a6396fd1b585467a",
+				"dweb:/ipfs/QmPHQQzNNkokxEaHQb4m5oBndV7MwiFuDe4EvZzv4XbLp4"
+			]
+		}
+	},
+	"version": 1
+}

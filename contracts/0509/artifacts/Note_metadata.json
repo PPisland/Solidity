@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "getABC",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "a",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "b",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "c",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct Note.ABC",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getABCs",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "a",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "b",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "c",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct Note.ABC[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "getcarray",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_c",
+						"type": "string[]"
+					}
+				],
+				"name": "pushABCs",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0509/note.sol": "Note"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0509/note.sol": {
+			"keccak256": "0x6a2247783b75afcb28eb457add35894df0b5971bfce8a643c83259253111f71a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be59b1d03db0faba68846f7fd48e07ad2128a017bb1a96e84890a84a2ed05fff",
+				"dweb:/ipfs/QmNmnrouMrkJJxfnjSiaTeiaJYao5SdZa5eADCnTdwYXxY"
+			]
+		}
+	},
+	"version": 1
+}
