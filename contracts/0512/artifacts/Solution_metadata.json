@@ -95,11 +95,11 @@
 	},
 	"sources": {
 		"contracts/0512/Quiz2.sol": {
-			"keccak256": "0xd30713bdff155dffffb56b98c29ad3fd921371bb70d91a7f45976cc0bdf4e2f4",
+			"keccak256": "0xd7234fc8bd0b5c6db60107928d5f3d7cf21388f26f690bb764fc7dad226e448b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1dae9faedb570258668a9b4aefe4221590067fc4c1ba737c49353edee10567ea",
-				"dweb:/ipfs/Qmc3EgiC5u7qis4mFcDQnTsw1CvXCUTiF6sGHpCjRMc6As"
+				"bzz-raw://d6439208c894a989b694268f2a438e463349870c27a1926cde1ad7af066062b3",
+				"dweb:/ipfs/QmYkXPjcUPajQGvECaURWX3UAiXP9gtqh687r3ZNPJJDXY"
 			]
 		}
 	},

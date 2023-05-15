@@ -58,11 +58,31 @@ contract Solution {
     }
      // * 회원가입 기능 - 새롭게 회원가입할 수 있는 기능
     function SignIn(string memory _ID, string memory _PW) public {
+     // * 회원가입시 이미 존재한 아이디 체크 여부 기능 - 이미 있는 아이디라면 회원가입 중지
+        require(ID_PW[_ID] ==  0x0000000000000000000000000000000000000000000000000000000000000000, "provided ID is already being used");
+        // require(ID_PW[_ID] ==  "", "provided ID is already being used"); <- 이렇게도 가능!
+
         ID_PW[_ID] = keccak256(abi.encodePacked(_ID,_PW));
     }
 
-     // * 회원가입시 이미 존재한 아이디 체크 여부 기능 - 이미 있는 아이디라면 회원가입 중지
     // function 
 
     
+}
+
+contract REQUIRE {
+    function Require(uint _n) public pure returns (uint) {
+        require(_n<10, "input should be lower than 10");
+        return _n*3;
+    }
+
+    function getName(string memory _name) public pure returns(bytes32){
+        return keccak256(abi.encodePacked(_name));
+    }
+
+    function onlyAlice(string memory _name) public pure returns (bool) {
+        require(getName(_name)== 0x9c0257114eb9399a2985f8e75dad7600c5d89fe3824ffa99ec1c3eb8bf3b0501);
+        return true;
+    }
+    //0x9c0257114eb9399a2985f8e75dad7600c5d89fe3824ffa99ec1c3eb8bf3b0501
 }

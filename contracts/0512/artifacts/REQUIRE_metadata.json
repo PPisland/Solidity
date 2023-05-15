@@ -8,17 +8,50 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "id",
-						"type": "string"
-					},
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "Require",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "password",
+						"name": "_name",
 						"type": "string"
 					}
 				],
-				"name": "getLogin",
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "onlyAlice",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -26,25 +59,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "id",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "password",
-						"type": "string"
-					}
-				],
-				"name": "setInfo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -61,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0512/Quiz2.sol": "PassWord"
+			"contracts/0512/Quiz2.sol": "REQUIRE"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
