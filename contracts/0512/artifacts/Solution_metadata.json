@@ -65,6 +65,24 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PW",
+						"type": "string"
+					}
+				],
+				"name": "singOut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -95,11 +113,11 @@
 	},
 	"sources": {
 		"contracts/0512/Quiz2.sol": {
-			"keccak256": "0xd7234fc8bd0b5c6db60107928d5f3d7cf21388f26f690bb764fc7dad226e448b",
+			"keccak256": "0x5000aeb2c6b16fff97e5de6178694d48e1268e678c008167e65f4e4fd279ab9e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d6439208c894a989b694268f2a438e463349870c27a1926cde1ad7af066062b3",
-				"dweb:/ipfs/QmYkXPjcUPajQGvECaURWX3UAiXP9gtqh687r3ZNPJJDXY"
+				"bzz-raw://e37fcba575bf4f147f48729d95dadd158e4ed7f41291810d29751d59f15f44e6",
+				"dweb:/ipfs/QmVP4uB1J86EoXtHUed2d9FU7fWeSm2N7gHKEhLiw5pTHC"
 			]
 		}
 	},

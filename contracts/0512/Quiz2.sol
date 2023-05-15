@@ -64,8 +64,13 @@ contract Solution {
 
         ID_PW[_ID] = keccak256(abi.encodePacked(_ID,_PW));
     }
+    // * 회원탈퇴 기능 - 회원이 자신의 ID와 PW를 넣고 회원탈퇴 기능을 실행하면 관련 정보 삭제 
+    function singOut(string memory _ID, string memory _PW) public {
+        // require(ID_PW[_ID] == keccak256(abi.encodePacked(_ID,_PW)));
+        require(Login(_ID, _PW) == true);
+        delete ID_PW[_ID];
+    }
 
-    // function 
 
     
 }
