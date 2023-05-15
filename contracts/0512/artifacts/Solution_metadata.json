@@ -9,35 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "s1",
-						"type": "string"
-					}
-				],
-				"name": "compare1",
-				"outputs": [
-					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "s1",
+						"name": "_ID",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "s2",
+						"name": "_PW",
 						"type": "string"
 					}
 				],
-				"name": "compare3",
+				"name": "Login",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -45,42 +26,18 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "s1",
+						"name": "_ID",
 						"type": "string"
 					}
 				],
-				"name": "compare4",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					},
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "s1",
-						"type": "string"
-					}
-				],
-				"name": "keccak2",
+				"name": "Login2",
 				"outputs": [
 					{
 						"internalType": "bytes32",
@@ -88,7 +45,25 @@
 						"type": "bytes32"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PW",
+						"type": "string"
+					}
+				],
+				"name": "SignIn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -105,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0511/Exam.sol": "STRING_Compare"
+			"contracts/0512/Quiz2.sol": "Solution"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -119,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/0511/Exam.sol": {
-			"keccak256": "0x37f8e933cf0c5abe7553172273c853bb4e515a6a27db0f72f749e7828c3c70dd",
+		"contracts/0512/Quiz2.sol": {
+			"keccak256": "0xd30713bdff155dffffb56b98c29ad3fd921371bb70d91a7f45976cc0bdf4e2f4",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3440c68533c2711f24b33ce674050e0f2a6957aebd5da336adea755aed256820",
-				"dweb:/ipfs/QmavsSTzsvwc13m9cnZqgscKwKpvG5WjSD6M6uctc4xU2o"
+				"bzz-raw://1dae9faedb570258668a9b4aefe4221590067fc4c1ba737c49353edee10567ea",
+				"dweb:/ipfs/Qmc3EgiC5u7qis4mFcDQnTsw1CvXCUTiF6sGHpCjRMc6As"
 			]
 		}
 	},

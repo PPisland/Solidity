@@ -18,9 +18,11 @@ contract Note{
     address a;
     address payable owner; //돈을 받을 수 있는 아이
 
-    function deposit() public payable {
-
+    function deposit() public payable returns (uint){
+        return msg.value;
     }
+    receive() external payable {} //
+    // fallback() external  payable {}  아무것도 안적혀있거나 없는 함수를 오류처리할 때 (?) 부르는 함수
 
     function setOwner() public {
         owner = payable(msg.sender); //거래를 일으킨 사람

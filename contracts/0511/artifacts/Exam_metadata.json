@@ -52,6 +52,96 @@
 			},
 			{
 				"inputs": [],
+				"name": "FClass2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "credit",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct Exam.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SClass",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "credit",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct Exam.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getAverage",
 				"outputs": [
 					{
@@ -325,11 +415,11 @@
 	},
 	"sources": {
 		"contracts/0511/Exam.sol": {
-			"keccak256": "0x21c805ddb365b54b6437ddc22d484023b5e118cc16d7d548fa01885fea2dca68",
+			"keccak256": "0x37f8e933cf0c5abe7553172273c853bb4e515a6a27db0f72f749e7828c3c70dd",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://abe0f6f506fb32a62df458977f9d774de455a7d6c38c0bb5cceb5889e37fab54",
-				"dweb:/ipfs/QmTFuZMtzdZRrJgLfAQGLfRjH76eZZFW3g9aRbpdQZ5Vpn"
+				"bzz-raw://3440c68533c2711f24b33ce674050e0f2a6957aebd5da336adea755aed256820",
+				"dweb:/ipfs/QmavsSTzsvwc13m9cnZqgscKwKpvG5WjSD6M6uctc4xU2o"
 			]
 		}
 	},

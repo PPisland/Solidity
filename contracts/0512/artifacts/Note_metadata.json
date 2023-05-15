@@ -8,7 +8,13 @@
 			{
 				"inputs": [],
 				"name": "deposit",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "payable",
 				"type": "function"
 			},
@@ -82,6 +88,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -112,11 +122,11 @@
 	},
 	"sources": {
 		"contracts/0512/Note.sol": {
-			"keccak256": "0x1347793226e56fa7e45758db7d08f43da8c00b0353e4fba8d3bfd8fc09e85477",
+			"keccak256": "0x50bd6090719c76be461762eb185cf1879ab5c1120548daa48aac665c3c8b53a6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://24b4f7595f37f31ab5de08c0b0b57e80173c1347a56d5696284363e759b0ce27",
-				"dweb:/ipfs/QmVifCxjh2rBnZrwV8dNJn7uLRiFkygUE6JFadEis59pR1"
+				"bzz-raw://8b9b05012b73fbdfb42eac0499e5fb698aa55dd9f501a78864af30a90785c692",
+				"dweb:/ipfs/QmT5soaBjW1yoqfRSJ4JF3t3vs3zSWtTUcg6P5rPmhQzQg"
 			]
 		}
 	},

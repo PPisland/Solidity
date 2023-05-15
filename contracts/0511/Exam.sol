@@ -17,7 +17,7 @@ contract Exam{
     Student[] students;
     
     // 번호는 1번부터 시작하여 정보를 기입하는 순으로 순차적으로 증가합니다.
-    uint count = 1;
+    // uint count = 1;
     // 학점은 점수에 따라 자동으로 계산되어 기입하게 합니다. 90점 이상 A, 80점 이상 B, 70점 이상 C, 60점 이상 D, 나머지는 F 입니다.
         function setGrade(uint _score) public pure returns (string memory) {
         if(_score >= 90){
@@ -113,10 +113,47 @@ contract Exam{
         return (num, F_students);
     }
 
+  function FClass2() public view returns(/*Student[] memory*/ uint, uint, Student[] memory) {
+        Student[] memory F_Students = students;
+        Student[] memory F_Storage;
+
+        uint count;
+
+        for(uint i=0; i<students.length; i++) {
+            if(keccak256(bytes(students[i].credit)) == keccak256(bytes("F"))) {
+                count++;
+                F_Students[count-1] = students[i];
+                F_Storage = new Student[](count);
+                for(uint j=0; j<count; j++) {
+                    F_Storage[j] = F_Students[j];
+                }
+            }
+        }
+        return (F_Storage.length, count, F_Storage);
+    }
+
 
 
     // -------------------------------------------------------------------------------
     // * S반 조회 기능 - 가장 점수가 높은 학생 4명을 S반으로 설정하는데, 이 학생들의 전체 정보를 반환하는 기능 (S반은 4명으로 한정)
+    function SClass() public view returns(Student[] memory){
+        Student[] memory S_Students = students;
+        Student[] memory S_Class = new Student[](4);
+
+
+        for(uint j=1; j<S_Students.length; j++) {
+            for(uint i=0; i<j; i++) {
+                if(S_Students[i].score < S_Students[j].score){
+                (S_Students[i],S_Students[j]) = (S_Students[j],S_Students[i]);}
+                }
+        }
+
+        for(uint i=0; i<4; i++) {
+            S_Class[i] = S_Students[i];
+        }
+
+        return S_Class;
+    }
 
     // 기입할 학생들의 정보는 아래와 같습니다.
 
@@ -149,3 +186,34 @@ contract STRING_Compare {
         return (abi.encodePacked(s1), bytes(s1));
     }
 }
+
+    contract Sorting {
+        uint[] numbers;
+
+        function push(uint _n) public {
+            numbers.push(_n);
+        }
+
+        function sorting() public {
+            for(uint i=0;  i<numbers.length-1; i++){
+                for(uint j=i+1; j<numbers.length; j++) {
+                    if(numbers[i] < numbers[j]){
+                        (numbers[i],numbers[j]) = (numbers[j],numbers[i]);}
+                }
+
+            }
+        }
+
+        function sorting2() public {
+            for(uint j=1; j<numbers.length; j++) {
+                for(uint i=0; i<j; i++) {
+                    if(numbers[i] < numbers[j]){
+                        (numbers[i],numbers[j]) = (numbers[j],numbers[i]);}
+                }
+            }
+        }
+
+        function get() public view returns(uint[] memory) {
+            return numbers;
+        }
+    }
