@@ -9,42 +9,41 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "id",
+						"name": "_name",
 						"type": "string"
 					},
 					{
-						"internalType": "string",
-						"name": "password",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
 					}
 				],
-				"name": "getLogin",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getStudent",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct CONSTRUCTOR3.Student",
 						"name": "",
-						"type": "bool"
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "id",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "password",
-						"type": "string"
-					}
-				],
-				"name": "setInfo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -61,7 +60,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0512/Quiz2.sol": "PassWord"
+			"contracts/0512/Quiz2.sol": "CONSTRUCTOR3"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -76,11 +75,11 @@
 	},
 	"sources": {
 		"contracts/0512/Quiz2.sol": {
-			"keccak256": "0x263750fd9ae0e04fa04478f2daaece57ad3b5aac359e67bed2a9069cff2277e9",
+			"keccak256": "0xa46a9f839ffb55c9d22769863e25c4f8a6639d2fd2d02d3863b51290ee8ff60a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c42260f5740d889d16c251b01172fe7dfe25c9ff2ba7c8f4ef92d3ef3be556cd",
-				"dweb:/ipfs/QmYJwdr9p34bLZnQxHrjdgzCyfxkJKHpn6vXD9rwq6Arc3"
+				"bzz-raw://f7efac910017565be6f40bedf1c0bc3a8d3d3dfcbe6bdf40a15be46ca77b3db4",
+				"dweb:/ipfs/Qmaho3JVi8Ra2rUCJaY3wgoiUQPaRb8u9njnXDdMC5dLMX"
 			]
 		}
 	},

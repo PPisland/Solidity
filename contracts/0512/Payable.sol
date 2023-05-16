@@ -2,6 +2,7 @@
 
 pragma solidity ^0.8.18;
 
+    //05-12
 /*
 실습가이드
 1. 1번 지갑 준비(주소 복붙) -> setOwner, 2번 지갑 준비(주소 복붙) -> setA
@@ -21,7 +22,7 @@ contract Note{
     function deposit() public payable returns (uint){
         return msg.value;
     }
-    receive() external payable {} //
+    receive() external payable {} // 이 거래를 했을 때 돈을 받을 수 있는 애다
     // fallback() external  payable {}  아무것도 안적혀있거나 없는 함수를 오류처리할 때 (?) 부르는 함수
 
     function setOwner() public {

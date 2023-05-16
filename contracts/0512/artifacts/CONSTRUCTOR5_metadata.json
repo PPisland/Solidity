@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "deposit",
 				"outputs": [
 					{
@@ -20,7 +25,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getA",
+				"name": "getOwner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -32,50 +37,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getOwner",
-				"outputs": [
-					{
-						"internalType": "address payable",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setA",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "traferToOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address payable",
-						"name": "_to",
+						"name": "_address",
 						"type": "address"
 					},
 					{
@@ -84,7 +49,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "transferTo",
+				"name": "tranferTo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -107,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0512/Payable.sol": "Note"
+			"contracts/0512/Quiz2.sol": "CONSTRUCTOR5"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -121,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/0512/Payable.sol": {
-			"keccak256": "0xabc34e37ff258dd04676f726d2aea60a2c8c015effac4f3c3246bca476f3ba55",
+		"contracts/0512/Quiz2.sol": {
+			"keccak256": "0xa46a9f839ffb55c9d22769863e25c4f8a6639d2fd2d02d3863b51290ee8ff60a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c0712597c9b4045bc1465af57037c4bf7a39a78d9314b837a91c5815905bfecf",
-				"dweb:/ipfs/QmXPL4iM4XqLb12mK2ADoCZbaVLNJDGYrYNfT6UeYLom8U"
+				"bzz-raw://f7efac910017565be6f40bedf1c0bc3a8d3d3dfcbe6bdf40a15be46ca77b3db4",
+				"dweb:/ipfs/Qmaho3JVi8Ra2rUCJaY3wgoiUQPaRb8u9njnXDdMC5dLMX"
 			]
 		}
 	},

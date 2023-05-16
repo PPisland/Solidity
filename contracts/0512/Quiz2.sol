@@ -105,3 +105,67 @@ contract REQUIRE {
     }
     //0x9c0257114eb9399a2985f8e75dad7600c5d89fe3824ffa99ec1c3eb8bf3b0501
 }
+
+contract REQUIRE2{
+    function getBool() public pure returns(bool) {
+        bool a;
+        return a;
+    }
+
+    function Require() public pure returns (uint) {
+        uint a=1;
+        bool b;
+        require(b, "Error"); // 기본적으로 false이기 때문에 통과못함
+        return a;
+    }
+
+      function Require2() public pure returns (uint) {
+        uint a=1;
+        bool b;
+        return a;
+        require(b, "Error"); // Unreachable cod
+    }
+    uint a =1;
+
+    function getA() public view returns(uint) {
+        return a;
+    }
+
+    function Require3() public {
+        bool c;
+        a = 5;
+        require (c, "error"); // a를 5로 바꾼 것도 전부 다 다시 revert(원래상태로 복구) 시킨다.
+    }
+
+    function setAasFive() public {
+        a=5;
+    }
+
+    // require 타 함수 호출
+    function Require4() public {
+        bool c;
+        setAasFive();
+        require(!c, "error");
+    }
+
+    // 조건 여러개
+    function Require5(uint _n) public pure returns(bool) {
+        require(_n%5 == 0  && _n>10, "Nope");
+        return true;
+    }
+
+    //if문 안의 require
+    function Require6(uint _a) public pure returns (uint) {
+        if(_a %3 == 0){
+            require(_a%3!=0, "nope");            
+        } else if(_a%3 == 1 ){
+            return _a%3;
+        } else {
+            return _a%3;
+        }
+    }
+}
+
+
+
+

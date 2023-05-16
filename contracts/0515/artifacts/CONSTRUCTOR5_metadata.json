@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "deposit",
 				"outputs": [
 					{
@@ -20,7 +25,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getA",
+				"name": "getOwner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -32,50 +37,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getOwner",
-				"outputs": [
-					{
-						"internalType": "address payable",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setA",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "traferToOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address payable",
-						"name": "_to",
+						"name": "_address",
 						"type": "address"
 					},
 					{
@@ -84,7 +49,34 @@
 						"type": "uint256"
 					}
 				],
-				"name": "transferTo",
+				"name": "tranferTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw3",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -107,7 +99,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0512/Payable.sol": "Note"
+			"contracts/0515/constructor.sol": "CONSTRUCTOR5"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -121,12 +113,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/0512/Payable.sol": {
-			"keccak256": "0xabc34e37ff258dd04676f726d2aea60a2c8c015effac4f3c3246bca476f3ba55",
+		"contracts/0515/constructor.sol": {
+			"keccak256": "0x61b91950e4ce2cc25f34defefed5d9239b2c6b07f8d8cc490e8da3b14f318a8b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c0712597c9b4045bc1465af57037c4bf7a39a78d9314b837a91c5815905bfecf",
-				"dweb:/ipfs/QmXPL4iM4XqLb12mK2ADoCZbaVLNJDGYrYNfT6UeYLom8U"
+				"bzz-raw://96d9e530137b2a0a42a9f1ac38706a6f064253c2154588759073bfae13520de6",
+				"dweb:/ipfs/Qmbj5Wg2yiPGVj28PkraffNKftjXrWsw8mXucCa1v9Qwmd"
 			]
 		}
 	},

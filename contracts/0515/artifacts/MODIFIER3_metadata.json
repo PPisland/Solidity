@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "deposit",
+				"name": "getA",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,17 +15,17 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "payable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getA",
+				"name": "getB",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -33,12 +33,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "getOwner",
+				"name": "getB2",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "string[]",
 						"name": "",
-						"type": "address"
+						"type": "string[]"
 					}
 				],
 				"stateMutability": "view",
@@ -53,45 +53,10 @@
 			},
 			{
 				"inputs": [],
-				"name": "setOwner",
+				"name": "setAasTwo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "traferToOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "transferTo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -107,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0512/Payable.sol": "Note"
+			"contracts/0515/modifier.sol": "MODIFIER3"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -121,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/0512/Payable.sol": {
-			"keccak256": "0xabc34e37ff258dd04676f726d2aea60a2c8c015effac4f3c3246bca476f3ba55",
+		"contracts/0515/modifier.sol": {
+			"keccak256": "0x09b254a925a55db8eb7613485f2a0cdf84b50b6015a4cb549e7b6da5e0ce3b5e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c0712597c9b4045bc1465af57037c4bf7a39a78d9314b837a91c5815905bfecf",
-				"dweb:/ipfs/QmXPL4iM4XqLb12mK2ADoCZbaVLNJDGYrYNfT6UeYLom8U"
+				"bzz-raw://7f1e63795a685d5d15317b2fa0d86b2537d55d010a707e69e37f14bf4a30c053",
+				"dweb:/ipfs/QmRfhr9HAPEoXuGUgwScFFREcSGVE8FMjcBsuAEuHkQPjG"
 			]
 		}
 	},

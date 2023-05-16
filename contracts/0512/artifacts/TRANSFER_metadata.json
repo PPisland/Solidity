@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "tranferTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0512/Quiz2.sol": "TRANSFER"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0512/Quiz2.sol": {
+			"keccak256": "0x357ae9885efdc478f02f4f62e8d75d940819ac9b2f3e2c91ae22fb9b0de6fcd3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://131dae630954549277eb276d2fc5a6bd9fe361535895143b745487c44e644014",
+				"dweb:/ipfs/QmZw2SXNeeYBqPiAKmvRHSH64Ketih613dLpMDc8hSuK4t"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_a",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getWallet",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "a",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "balance",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct CONSTRUCTORQUIZ.Wallet",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0512/Quiz2.sol": "CONSTRUCTORQUIZ"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0512/Quiz2.sol": {
+			"keccak256": "0x4206c43e9a45107ac9c8039852c5648b2c860c36c23cba638f9c44f3eada2267",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2d0bd23ed5342838529406ac4cb2d3c3fe5b3156d6a571a48e846b7e8a65d2d8",
+				"dweb:/ipfs/QmSbSqzqKYiasEBkCpSzWCxPSqY2TpPwrSZBxhMgTyzZTa"
+			]
+		}
+	},
+	"version": 1
+}

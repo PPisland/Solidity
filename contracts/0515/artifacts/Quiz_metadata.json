@@ -7,53 +7,55 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "deposit",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
+				"name": "Accel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "PowerOff",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "PowerOn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Refuel",
+				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getA",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getOwner",
-				"outputs": [
-					{
-						"internalType": "address payable",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setA",
+				"name": "brake",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "setOwner",
+				"name": "getSt",
+				"outputs": [
+					{
+						"internalType": "enum Quiz.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSt",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -66,25 +68,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "traferToOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "transferTo",
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -107,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0512/Payable.sol": "Note"
+			"contracts/0515/Quiz.sol": "Quiz"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -121,12 +105,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/0512/Payable.sol": {
-			"keccak256": "0xabc34e37ff258dd04676f726d2aea60a2c8c015effac4f3c3246bca476f3ba55",
+		"contracts/0515/Quiz.sol": {
+			"keccak256": "0x8291384f2032ad7a7d993078e2b41b1026d6d4f097b6dfab9cdebe0ce84c8a81",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c0712597c9b4045bc1465af57037c4bf7a39a78d9314b837a91c5815905bfecf",
-				"dweb:/ipfs/QmXPL4iM4XqLb12mK2ADoCZbaVLNJDGYrYNfT6UeYLom8U"
+				"bzz-raw://57b2249750bd5ddf6515742337c42f618e75e678c36062eee412a237c5fe662a",
+				"dweb:/ipfs/QmZd18FC3MMdhoXhPuGh98K5arxxEKHGhmZ1pS7k8hmFKc"
 			]
 		}
 	},

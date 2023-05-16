@@ -6,62 +6,41 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_ID",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_PW",
-						"type": "string"
-					}
-				],
-				"name": "Login",
+				"inputs": [],
+				"name": "Require",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Require2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Require3",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_ID",
-						"type": "string"
-					}
-				],
-				"name": "Login2",
-				"outputs": [
-					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_ID",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_PW",
-						"type": "string"
-					}
-				],
-				"name": "SignIn",
+				"inputs": [],
+				"name": "Require4",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -69,22 +48,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_ID",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_PW",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
 					}
 				],
-				"name": "getHash",
+				"name": "Require5",
 				"outputs": [
 					{
-						"internalType": "bytes32",
+						"internalType": "bool",
 						"name": "",
-						"type": "bytes32"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
@@ -93,17 +67,51 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_ID",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_PW",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
 					}
 				],
-				"name": "singOut",
+				"name": "Require6",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setAasFive",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -122,7 +130,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0512/Quiz2.sol": "Solution"
+			"contracts/0512/Quiz2.sol": "REQUIRE2"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
