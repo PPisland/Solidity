@@ -1,0 +1,166 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "addDoubleTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "div",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "mul2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0516/visibility.sol": "GrandChild"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0516/visibility.sol": {
+			"keccak256": "0xd6b743a6c041be68517d5711658cb8eff2f3e0a1a60d06235c5cb42e406a2479",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e0057d22121f2210275977da7d95451f1f7f8c740c056197eb372cfc5e7fbbce",
+				"dweb:/ipfs/Qmcmx9dMCficjybSwgsJWBGSpeVozs3F9tY4VENJwfWnJ8"
+			]
+		}
+	},
+	"version": 1
+}

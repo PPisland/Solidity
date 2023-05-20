@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "numbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "reverse",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "numbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "reverse2",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0517/Quiz.sol": "REVERSEARRAY"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0517/Quiz.sol": {
+			"keccak256": "0x46c1626008da8b1649e3e7fa1d8a96ed1940b3226386ce8df7b17cb4967430c3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://21894d91e82a8302297da88429b77184a1a8af10e583787e2d83311cc3f6b964",
+				"dweb:/ipfs/QmSsBVEvYnwBuCncKAgNWWyCXJrDr4mS11aZGJv5VdyWdB"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_content",
+						"type": "string"
+					}
+				],
+				"name": "addProposals",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0518/Quiz.sol": "Quiz"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0518/Quiz.sol": {
+			"keccak256": "0x904c5610de4857e1d740ed1c1212a1a85f04d50fd8c83deb9da8e4fce0de8b74",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7f9ed0d6b1ba4928301495afcebd71e207889d013eedd3094ff90c8ecc3345ce",
+				"dweb:/ipfs/QmQPB7cNYLP98oJMqHDsBQjXCj52ZweyoedtfsozbHEQKD"
+			]
+		}
+	},
+	"version": 1
+}

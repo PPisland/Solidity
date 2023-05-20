@@ -6,48 +6,71 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_a",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "Accel",
+				"name": "accel",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "PowerOff",
+				"name": "brakeCar",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "PowerOn",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "Refuel",
+				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "brake",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "depositToGS",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getSt",
+				"name": "getPrePaid",
 				"outputs": [
 					{
-						"internalType": "enum Quiz.Status",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gs",
+				"outputs": [
+					{
+						"internalType": "contract GASSTATION",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -55,27 +78,47 @@
 			},
 			{
 				"inputs": [],
-				"name": "setSt",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"name": "myCar",
+				"outputs": [
+					{
+						"internalType": "enum Solution.carStatus",
+						"name": "status",
+						"type": "uint8"
+					},
 					{
 						"internalType": "uint256",
-						"name": "_amount",
+						"name": "fuelGauge",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "speed",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reCharge",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOff",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [],
+				"name": "turnOn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -91,7 +134,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0515/Quiz.sol": "Quiz"
+			"contracts/0515/Quiz.sol": "Solution"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0517/a.sol": "B"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0517/a.sol": {
+			"keccak256": "0x78cae9f6eededa20a072554d0d084f2fd44c1d7b98c767112d54eba0826ada2a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cad95da19ea6ae0b9db33c076ed7fccd06cda0a26d88df32cd5e6d5611abeed7",
+				"dweb:/ipfs/QmbDzuFA9xS9vde4nuUtQEwLBiBcKWUYM5fmnVkzeVu3KT"
+			]
+		}
+	},
+	"version": 1
+}

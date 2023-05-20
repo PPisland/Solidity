@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0516/visibility.sol": "PArent"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0516/visibility.sol": {
+			"keccak256": "0x31563a4f7bf4c884be9c3a7dff1dc291dba85ac0d4d6a92a4dfcde8c58541724",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f59d4b928f8fcdc690bed5fdd8d0f4d0f601a049b781c20c45e28a4f48d61285",
+				"dweb:/ipfs/QmTQwUq9hDhEnEtV8Vgt4xzDeArnjvheSxRYKzLmN9hure"
+			]
+		}
+	},
+	"version": 1
+}

@@ -7,55 +7,42 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "Accel",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "PowerOff",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "PowerOn",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "Refuel",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "brake",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getSt",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "prePaidList",
 				"outputs": [
 					{
-						"internalType": "enum Quiz.Status",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "setSt",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_a",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "reChargeFuel",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -63,12 +50,24 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_a",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_amount",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"name": "renewprePaidList",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withDraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -91,7 +90,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0515/Quiz.sol": "Quiz"
+			"contracts/0515/Quiz.sol": "GASSTATION"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
