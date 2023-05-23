@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0523/a.sol": "A"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0523/a.sol": {
+			"keccak256": "0xe639ba8310849252cc625a87de154b9b4e774e2a6ece89b54b86e2fbe938d4ff",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0849143fdd1fa65c0b6c6184cd4e43975f2b89f2c9676e9908ed86109e3b3e78",
+				"dweb:/ipfs/QmPy7EjCgrtDVNoUGAvKNTL3UCYc1eWFJEcFRhjCvreMAU"
+			]
+		},
+		"contracts/0523/b.sol": {
+			"keccak256": "0x990215387c4238339e50f2d9ae6e9022659f2dfe42fc654550d3361dade9e01a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5ac7221cbb9ba48f2544a373ead14dcde1cb59a3d78623fb8a9091390193563a",
+				"dweb:/ipfs/Qmf9zupqWxG7fE2SPFRgM3Sa5xdfr2vS3xqBjvr1yLEfCo"
+			]
+		},
+		"contracts/0523/d/dd.sol": {
+			"keccak256": "0xc907a04f9915d0b9a0eb9b90e934eaf534dfa8be6ee4ab160d097802090ff95f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a39b72c937c053378a63ebcc3eb5e51faebe4e4d282c7f3e54c9bfd6a30c6f6f",
+				"dweb:/ipfs/QmV1b7LEDVhFcFXJ2t49qK3SbueXpvM2vQexrrv1F6Fobt"
+			]
+		}
+	},
+	"version": 1
+}

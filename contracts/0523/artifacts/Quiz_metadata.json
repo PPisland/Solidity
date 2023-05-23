@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[4]",
+						"name": "_num",
+						"type": "uint256[4]"
+					},
+					{
+						"internalType": "string",
+						"name": "_alpha",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_beta",
+						"type": "string"
+					}
+				],
+				"name": "JoinGame",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "selectNum",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "letter1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "letter2",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0523/Quiz.sol": "Quiz"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0523/Quiz.sol": {
+			"keccak256": "0x087112f65951a865ab8c2e2e97beac913551d94b12e41d79aedb8b617414528d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://71a8b27296222320f5ad8f9ff477ac6b024cc066278dcbfca76447b11b1722dc",
+				"dweb:/ipfs/QmX9YmbaXoYFpaz4Wa7ERLAv9yGu791SaoRrwhQmRFvQh1"
+			]
+		}
+	},
+	"version": 1
+}

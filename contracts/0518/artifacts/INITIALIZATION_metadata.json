@@ -1,0 +1,234 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "S1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "b",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "c",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "d",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "e",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "f",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getG",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "bytes1[4]",
+						"name": "",
+						"type": "bytes1[4]"
+					},
+					{
+						"internalType": "uint256[4]",
+						"name": "",
+						"type": "uint256[4]"
+					},
+					{
+						"internalType": "address[4]",
+						"name": "",
+						"type": "address[4]"
+					},
+					{
+						"internalType": "string[4]",
+						"name": "",
+						"type": "string[4]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getG2",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256[]",
+								"name": "g",
+								"type": "uint256[]"
+							},
+							{
+								"internalType": "string[]",
+								"name": "h",
+								"type": "string[]"
+							},
+							{
+								"internalType": "bytes1[4]",
+								"name": "i",
+								"type": "bytes1[4]"
+							}
+						],
+						"internalType": "struct INITIALIZATION.set2[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getS2",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256[]",
+								"name": "g",
+								"type": "uint256[]"
+							},
+							{
+								"internalType": "string[]",
+								"name": "h",
+								"type": "string[]"
+							},
+							{
+								"internalType": "bytes1[4]",
+								"name": "i",
+								"type": "bytes1[4]"
+							}
+						],
+						"internalType": "struct INITIALIZATION.set2",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushG1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushG2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0518/Quiz.sol": "INITIALIZATION"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0518/Quiz.sol": {
+			"keccak256": "0x45c60f2d94713260e3fa060c7f0ad58f6a17122784a2f999dba783e7668887fa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://70fc8e17c0cf04ee214b2243e5041fb36d1f6fa04c7b5e9349b5f685b1563baf",
+				"dweb:/ipfs/QmUbgnn4JHebRnUbsGJ1qMG6p7RUQJp9TJGJ9zy3mJbXNq"
+			]
+		}
+	},
+	"version": 1
+}

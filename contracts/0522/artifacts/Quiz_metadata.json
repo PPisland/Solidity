@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "Time",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0522/Quiz.sol": "Quiz"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0522/Quiz.sol": {
+			"keccak256": "0xf4e7781d51f8a41cd2d793cc2ab40251539e39737b77e8d32ece05e7f28680d6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://475556db23b3d6f25646a1e6ad6e3d32c7fefc52ba2c69ad8e3bdc12e6dd6120",
+				"dweb:/ipfs/QmVpYTVXd8MTXxVdSc7HpTcTchgZjZx1Apvytw5b42mNHS"
+			]
+		}
+	},
+	"version": 1
+}
