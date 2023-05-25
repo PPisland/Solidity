@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -13,25 +18,32 @@
 						"type": "string"
 					}
 				],
-				"name": "getAlice",
-				"outputs": [
+				"name": "checkAct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "joinHealth",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getAvg",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address payable",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -43,19 +55,27 @@
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
+					}
+				],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "_n",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_birth",
-						"type": "string"
 					}
 				],
-				"name": "pushUsers",
+				"name": "setDay",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -69,11 +89,11 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_score",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
-				"name": "setStudent",
+				"name": "setHours",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -81,12 +101,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_a",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
-				"name": "three",
+				"name": "setMinutes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setUser",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -99,7 +137,7 @@
 						"type": "string"
 					}
 				],
-				"name": "userlist",
+				"name": "userList",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -108,21 +146,28 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "number",
+						"name": "deadline",
 						"type": "uint256"
 					},
 					{
-						"internalType": "address",
-						"name": "by",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "ticket",
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
-						"name": "birth",
-						"type": "string"
+						"internalType": "enum Quiz.Status",
+						"name": "act",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -139,7 +184,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Practice/4.sol": "ps"
+			"contracts/BABYLION/0524.sol": "Quiz"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -153,12 +198,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Practice/4.sol": {
-			"keccak256": "0x0bbcbe59daf2cca8a92321b67e9868f9cb49b5b6f6ff75ce5f4fd374ba5f9cc7",
+		"contracts/BABYLION/0524.sol": {
+			"keccak256": "0xb84b1b48dfc17a72ffe146a9a8863e05926ae28142a7a18bc56bb63a23229333",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a2ea4cb86e3b5dee9786d6d7bb94595cd7fb96f710daf4eed25587fc1acaec37",
-				"dweb:/ipfs/QmVyd9LCXFpSCtQJc21mwZk8cFyeGuvLjv21HKxtgRW8ER"
+				"bzz-raw://6c289896b01d5b75a3f6d9b5d1e4000e080faadfbcbb4afec259410b0a1d11e3",
+				"dweb:/ipfs/QmW8UyvQhREbj37Ta45NoVMknCHbTtc43oibsA1JwGVrm8"
 			]
 		}
 	},
