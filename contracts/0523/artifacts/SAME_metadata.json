@@ -8,29 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256[4]",
-						"name": "_num",
-						"type": "uint256[4]"
-					},
-					{
-						"internalType": "string",
-						"name": "_alpha",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_beta",
-						"type": "string"
+						"internalType": "uint256[]",
+						"name": "_myNumber",
+						"type": "uint256[]"
 					}
 				],
-				"name": "JoinGame",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "checkNum",
+				"name": "isSame",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -44,25 +27,44 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "string[]",
+						"name": "_myLetter",
+						"type": "string[]"
 					}
 				],
-				"name": "selectNum",
+				"name": "isSameLetter",
 				"outputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
-						"name": "letter1",
+						"name": "_a",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "letter2",
+						"name": "_b",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "letterCompare",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -79,7 +81,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/0523/Quiz.sol": "Quiz"
+			"contracts/0523/Quiz.sol": "SAME"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -110,11 +112,11 @@
 			]
 		},
 		"contracts/0523/Quiz.sol": {
-			"keccak256": "0x003752c81519c502a2494e6de730a682f118a11987c8c6b4e51aaac5f4e39f66",
+			"keccak256": "0xde4330bd841f540560bf52b58ebbe551ccc6bdc2ef39ee210fa66a0639b6fa34",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1843b271a505913300d410f623890bfef34a88453aa3366716800f5fab2b564a",
-				"dweb:/ipfs/QmUH2216BULsnP2Kxv8xj2bPzsJxU5DxDEnvmEpuwU7ySE"
+				"bzz-raw://264a439c88e24431bdcbd2057c2521328106e6bb54d18682ce8213cced89758b",
+				"dweb:/ipfs/QmPWsLpZjTf9c24fiq2xL7oWkCQigJ3YZvGqWAbZAi3mLD"
 			]
 		}
 	},

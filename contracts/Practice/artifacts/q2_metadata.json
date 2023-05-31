@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_B",
+						"type": "string"
+					}
+				],
+				"name": "changeB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_B",
+						"type": "string"
+					}
+				],
+				"name": "changeC",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Practice/4.sol": "q2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Practice/4.sol": {
+			"keccak256": "0xb9a71a9311ae8faa952fb9095d5263931691b68cd6e767e9683f902e9814886e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2a1ad5e5397742544ef6d2a264cd8a451be6eeb9bffcf27be5a5ba9265911f4f",
+				"dweb:/ipfs/QmXsgTK1ikHtZ4Umz8CqfnkydCyevx5dYprKVwZVvgCwsv"
+			]
+		}
+	},
+	"version": 1
+}

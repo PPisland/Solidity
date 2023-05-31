@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_password",
+						"type": "string"
+					}
+				],
+				"name": "stringToBytes1Array",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/0530/Quiz.sol": "Quiz"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/0530/Quiz.sol": {
+			"keccak256": "0x444fdc1f255b7b2400cf180078e15d8b1253afb4b5ecb02537a4b89cc88df33a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://198323f86429abd55d4b899d4da05198504db789571b5dd06fd60bb3e0c6b465",
+				"dweb:/ipfs/QmZ2ijD4bxiH4QHYBfKibXoRMreXmdMPDH7D7BGbXp6RsZ"
+			]
+		}
+	},
+	"version": 1
+}

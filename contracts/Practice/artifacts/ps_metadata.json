@@ -8,6 +8,40 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "Change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "donationether",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "donationfinney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "donationwei",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
@@ -79,6 +113,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "st",
+				"outputs": [
+					{
+						"internalType": "enum ps.status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -124,6 +171,13 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -154,11 +208,11 @@
 	},
 	"sources": {
 		"contracts/Practice/4.sol": {
-			"keccak256": "0x0bbcbe59daf2cca8a92321b67e9868f9cb49b5b6f6ff75ce5f4fd374ba5f9cc7",
+			"keccak256": "0xb9a71a9311ae8faa952fb9095d5263931691b68cd6e767e9683f902e9814886e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a2ea4cb86e3b5dee9786d6d7bb94595cd7fb96f710daf4eed25587fc1acaec37",
-				"dweb:/ipfs/QmVyd9LCXFpSCtQJc21mwZk8cFyeGuvLjv21HKxtgRW8ER"
+				"bzz-raw://2a1ad5e5397742544ef6d2a264cd8a451be6eeb9bffcf27be5a5ba9265911f4f",
+				"dweb:/ipfs/QmXsgTK1ikHtZ4Umz8CqfnkydCyevx5dYprKVwZVvgCwsv"
 			]
 		}
 	},
